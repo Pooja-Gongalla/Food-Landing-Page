@@ -30,9 +30,9 @@ const About = () => {
             <div className="about-background-image-container">
                 <img src={AboutBackground} alt="" />
             </div>
-            <div className="about-section-image-container">
+            {/* <div className="about-section-image-container">
                 <img src={AboutBackgroundImage} alt="" />
-            </div>
+            </div> */}
             <div className="about-section-text-container">
                 <p className="primary-subheading">About</p>
                 <h1 className="primary-heading">

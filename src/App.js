@@ -7,23 +7,17 @@ import Testimonial from './Components/Testimonial';
 import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-
-
 function App() {
   return (
     <div className="App">
         <Navbar />
       <Routes>
         <Route path="/home" element={<Home />} />
-     
-      <Route path="/about" element={<About />} />
-
+        <Route path="/about" element={<About />} />
         <Route path="/testimonials" element={<Testimonial />} />
         <Route path="/contact" element={<Contact />} />
-
       </Routes>
-    
-      <Footer />
+    <Footer />
     </div>
   );
 }
